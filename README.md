@@ -1,34 +1,107 @@
-# YouTube → MP3 Downloader
+<<<<<<< HEAD
+# YouTube → MP3 Downloader Beta
 
-Ein minimalistischer YouTube-Downloader in Python.  
-Er lädt YouTube-Videos als MP3 herunter und speichert sie automatisch im Ordner `downloads/` mit dem **Video-Titel als Dateiname**.
-
----
-
-## ⚡ Features
-- Minimalistisches Interface mit Eingabefeld, Fortschrittsbalken und Statusanzeige  
-- Läuft plattformübergreifend (Windows, macOS, Linux)  
-- Lädt MP3 direkt aus YouTube ohne Browser  
-- Dateien werden automatisch benannt und im `downloads/` Ordner gespeichert  
-- Leicht verständlicher Python-Code → ideal für Anfänger, die GitHub zeigen wollen  
+A lightweight and stable YouTube to MP3 downloader built with Python. Simply enter a YouTube URL, click download, and the MP3 file is saved in your system's native Downloads folder.
 
 ---
 
-## 📦 Installation
+## 🛠 Features
 
-1. **Python installieren**  
-   - Windows: [python.org](https://www.python.org/downloads/) → während Installation „Add Python to PATH“ anklicken  
-   - macOS: `brew install python`  
-   - Linux: `sudo apt install python3 python3-pip -y`  
+* Minimalistic GUI built with **Tkinter**
+* Download YouTube videos as **MP3**
+* Automatically names MP3 after the video title
+* Saves files directly in the system's **Downloads folder**
+* Real-time **progress bar**
+* Checks if **FFmpeg** is installed
+* Cross-platform: Windows, macOS, Linux
 
-2. **FFmpeg installieren** (für MP3-Konvertierung)  
-   - Windows: [FFmpeg Build](https://www.gyan.dev/ffmpeg/builds/) herunterladen → Pfad zu `bin` in PATH eintragen  
-   - macOS: `brew install ffmpeg`  
-   - Linux: `sudo apt install ffmpeg -y`  
+---
 
-3. **Projekt klonen oder downloaden**  
-   ```bash
-   git clone https://github.com/DEINUSER/yt-mp3-downloader.git
-   cd yt-mp3-downloader
-   git clone https://github.com/DEINUSER/yt-mp3-downloader.git
-   cd yt-mp3-downloader
+## ⚡ Installation
+
+1. **Clone the repository or download ZIP**
+
+```bash
+git clone https://github.com/<your-username>/YT-MP3-Downloader.git
+cd YT-MP3-Downloader
+```
+
+2. **Install Python**
+
+* Python 3.10+ required
+* Verify installation:
+
+```bash
+python --version
+```
+
+3. **Install dependencies**
+
+```bash
+pip install -r requirements.txt
+```
+
+4. **Install FFmpeg**
+
+* **Windows:** Download FFmpeg → extract → add `bin` folder to PATH
+* **macOS:**
+
+```bash
+brew install ffmpeg
+```
+
+* **Linux (Ubuntu/Debian):**
+
+```bash
+sudo apt install ffmpeg -y
+```
+
+---
+
+## 🚀 Usage
+
+Run the program:
+
+```bash
+python downloader_beta.py
+```
+
+* Enter a **YouTube URL**
+* Click **Download MP3**
+* MP3 file will appear in the **Downloads folder**
+
+---
+
+
+## ⚖️ Legal Notice
+
+* Only download content you are **allowed to use**.
+* Respect copyright laws. Private use may be allowed in some countries.
+
+---
+
+## 🔧 Notes
+
+* Progress bar may behave differently on very short videos or slow internet
+* If you get `ffmpeg not found`, make sure FFmpeg is installed and in your PATH
+
+---
+
+## 🏷 Badges (optional)
+
+![Python](https://img.shields.io/badge/python-3.10%2B-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![GitHub](https://img.shields.io/badge/GitHub-Project-black)
+
+---
+
+## 👨‍💻 GitHub & Version Control
+
+* `.gitignore` includes `downloads/` and `__pycache__/`
+* Perfect for showcasing **Python and GUI skills** in your portfolio
+
+---
+
+## ✅ Done!
+
+A clean, functional, beginner-friendly YouTube → MP3 downloader. Great for personal use or showcasing programming skills on GitHub.
