@@ -86,15 +86,7 @@ python downloader_beta.py
 
 ---
 
-## 👨‍💻 GitHub & Version Control
 
-* `.gitignore` includes `downloads/` and `__pycache__/`
-* Perfect for showcasing **Python and GUI skills** in your portfolio
 
----
-
-## ✅ Done!
-
-A clean, functional, beginner-friendly YouTube → MP3 downloader. Great for personal use or showcasing programming skills on GitHub.
 
 
