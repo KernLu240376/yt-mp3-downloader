@@ -86,14 +86,6 @@ python downloader_beta.py
 
 ---
 
-## 🏷 Badges (optional)
-
-![Python](https://img.shields.io/badge/python-3.10%2B-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
-![GitHub](https://img.shields.io/badge/GitHub-Project-black)
-
----
-
 ## 👨‍💻 GitHub & Version Control
 
 * `.gitignore` includes `downloads/` and `__pycache__/`
@@ -104,4 +96,5 @@ python downloader_beta.py
 ## ✅ Done!
 
 A clean, functional, beginner-friendly YouTube → MP3 downloader. Great for personal use or showcasing programming skills on GitHub.
+
 
