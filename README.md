@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # YouTube → MP3 Downloader Beta
 
 A lightweight and stable YouTube to MP3 downloader built with Python. Simply enter a YouTube URL, click download, and the MP3 file is saved in your system's native Downloads folder.
@@ -105,3 +104,4 @@ python downloader_beta.py
 ## ✅ Done!
 
 A clean, functional, beginner-friendly YouTube → MP3 downloader. Great for personal use or showcasing programming skills on GitHub.
+
