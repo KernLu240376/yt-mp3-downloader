@@ -21,7 +21,7 @@ A lightweight and stable YouTube to MP3 downloader built with Python. Simply ent
 1. **Clone the repository or download ZIP**
 
 ```bash
-git clone https://github.com/<your-username>/YT-MP3-Downloader.git
+git clone https://github.com/KernLu240376/YT-MP3-Downloader.git
 cd YT-MP3-Downloader
 ```
 
@@ -85,6 +85,7 @@ python downloader_beta.py
 * If you get `ffmpeg not found`, make sure FFmpeg is installed and in your PATH
 
 ---
+
 
 
 
